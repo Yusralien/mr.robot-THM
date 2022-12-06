@@ -16,4 +16,4 @@ By running `nmap -sC -v -sV ip_addr`, we will get the following input.
 
 Based on the output given, we noticed that the ip leaves us with port 80 and 443 which can redirect us to the hosting page. Lets go to the webpage as below:
 
-![robot webpage](https://user-images.githubusercontent.com/87742813/205924655-b0c37941-1e1e-41ae-8875-5423ea4e0b86.png)
+![robot webpage](https://user-images.githubusercontent.com/87742813/205924859-cc45df44-369f-4db0-85bd-5bfabb5e220f.png)

@@ -71,10 +71,17 @@ We got the password .!
 
 "abcdefghijklmnopqrstuvwxyz"
 
-Login as the robot user and `cat` the second key/flag.
+Login as the robot user and `cat` the second key/flag. (make sure to spawn pty `python3 -c 'import pty; pty.spawn("/bin/bash")'`)
 
           2nd key = 822c73956184f694993bede3eb39f959
 
+### R00T
+ As the robot user, we can use Linpeas or Lineum for further privelege escalation to gain root access but here i will use the common command to search for all files having SUID bit set which is
+          
+          find / -perm -u=s -type f 2>/dev/null
+ 
+
+![suid robot](https://user-images.githubusercontent.com/87742813/206673510-33b32632-5a4b-43d2-b54d-d2944abec6ba.png)
 
 
 

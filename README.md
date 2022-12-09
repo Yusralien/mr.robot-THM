@@ -59,6 +59,9 @@ At this point, I used to investigate the system and entered the robot directory,
 
 ![hash rbot](https://user-images.githubusercontent.com/87742813/206668022-5e09f024-85f6-408d-93e7-1443fe0869eb.png)
 
+In order to crack the password, we can use a tools like `johntheripper` but the other way is an online tool called [CrackStation](https://crackstation.net).
+
+![crackrobot](https://user-images.githubusercontent.com/87742813/206669195-b30574b2-6ee6-419e-bece-8a25415e8636.png)
 
 
 

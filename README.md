@@ -42,6 +42,10 @@ But the credential to login the administrator's dashboard was actually in /licen
 
           User = elliot
           Pass = ER28-0652
-ssasaaaaaaaa
 
+Here, we have an administrator user. From this point on, we may upload the php-reverse-shell theme for WordPress using the full authority of the administrator account. Select the Editor option under the Appearance tab(404.php).
+
+![themes robot](https://user-images.githubusercontent.com/87742813/206655031-9c29fb21-6584-4abe-89f1-c7b432beecae.png)
+
+Then, we just replace the default php code to reverseshell.php that u can search on [pentest-monkey]{https://www.revshells.com/}
 

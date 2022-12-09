@@ -47,5 +47,14 @@ Here, we have an administrator user. From this point on, we may upload the php-r
 
 ![themes robot](https://user-images.githubusercontent.com/87742813/206655031-9c29fb21-6584-4abe-89f1-c7b432beecae.png)
 
-Then, we just replace the default php code to reverseshell.php that u can search on [pentest-monkey](https://www.revshells.com/)
+Then, we just replace the default php code to reverseshell.php that u can search on [pentest-monkey](https://www.revshells.com/). Do not forget to enter your localhost's ip and select a random port.
+
+After making the necessary template updates, launch `NetCat` and enter the URL's path to the 404 template.
+
+By using the command `rlwrap nc -lnvp your_port`
+
+![nc robot](https://user-images.githubusercontent.com/87742813/206664330-fb7d3e94-204a-48c7-8130-fb76399f406b.png)
+
+
+
 

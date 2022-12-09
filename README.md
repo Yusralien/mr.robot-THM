@@ -27,6 +27,8 @@ user-agent: *
 fsocity.dic
 key-1-of-3.txt
 ```
+"1st key = 073403c8a58a1f80d943455fb30724b9"
+
 After reviewed the fsocity.dic file, i could assume that the file maybe containing some combination of passwords.
 
 Then, after launching the directory buster on the target, i found that the website got wordpress login but we were not gonna `bruteforce` method to login the *wp-admin*.
@@ -42,6 +44,8 @@ But the credential to login the administrator's dashboard was actually in /licen
 
           User = elliot
           Pass = ER28-0652
+
+### Initial Foothold
 
 Here, we have an administrator user. From this point on, we may upload the php-reverse-shell theme for WordPress using the full authority of the administrator account. Select the Editor option under the Appearance tab(404.php).
 
@@ -62,6 +66,16 @@ At this point, I used to investigate the system and entered the robot directory,
 In order to crack the password, we can use a tools like `johntheripper` but the other way is an online tool called [CrackStation](https://crackstation.net).
 
 ![crackrobot](https://user-images.githubusercontent.com/87742813/206669195-b30574b2-6ee6-419e-bece-8a25415e8636.png)
+
+We got the password .!
+
+"abcdefghijklmnopqrstuvwxyz"
+
+Login as the robot user and `cat` the second key/flag.
+
+
+
+
 
 
 

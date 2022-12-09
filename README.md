@@ -37,3 +37,9 @@ gobuster dir -u http://ip_addr -w /usr/share/wordlists/dirbuster/directory-list-
 
 ![gobuster](https://user-images.githubusercontent.com/87742813/206622457-f9e583ca-582e-41a7-97e0-8f59d48d22a3.png)
 
+
+But the credential to login the administrator's dashboard was actually in /license dir where you can get the username and password.
+
+          *elliot:ER28-0652*
+
+

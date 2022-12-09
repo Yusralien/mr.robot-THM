@@ -53,5 +53,6 @@ After making the necessary template updates, launch `NetCat` and enter the URL's
 
 By using the command `rlwrap nc -lnvp your_port`
 
-![nc robot](https://user-images.githubusercontent.com/87742813/206664599-980ec780-1fc4-409b-9691-74a9f0d0ca78.png)
+![nc robot](https://user-images.githubusercontent.com/87742813/206664734-81404a54-f417-4084-96ec-e891f732cd4a.png)
+
 

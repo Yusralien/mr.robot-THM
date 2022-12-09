@@ -27,7 +27,7 @@ user-agent: *
 fsocity.dic
 key-1-of-3.txt
 ```
-"1st key = 073403c8a58a1f80d943455fb30724b9"
+          1st key = 073403c8a58a1f80d943455fb30724b9
 
 After reviewed the fsocity.dic file, i could assume that the file maybe containing some combination of passwords.
 
@@ -72,6 +72,8 @@ We got the password .!
 "abcdefghijklmnopqrstuvwxyz"
 
 Login as the robot user and `cat` the second key/flag.
+
+          2nd key = 822c73956184f694993bede3eb39f959
 
 
 

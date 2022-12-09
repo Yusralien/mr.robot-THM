@@ -27,4 +27,8 @@ user-agent: *
 fsocity.dic
 key-1-of-3.txt
 ```
+After reviewed the fsocity.dic file, i could assume that the file maybe containing some combination of passwords.
+
+Then, after launching the directory buster on the target, i found that the website got wordpress login but we were not gonna `bruteforce` method to login the ~wp-admin~.
+![gobuster](https://user-images.githubusercontent.com/87742813/206622457-f9e583ca-582e-41a7-97e0-8f59d48d22a3.png)
 

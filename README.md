@@ -40,6 +40,8 @@ gobuster dir -u http://ip_addr -w /usr/share/wordlists/dirbuster/directory-list-
 
 But the credential to login the administrator's dashboard was actually in /license dir where you can get the username and password.
 
-          *elliot:ER28-0652*
+          User = elliot
+          Pass = ER28-0652
+ssasaaaaaaaa
 
 

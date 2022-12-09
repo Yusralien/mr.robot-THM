@@ -83,6 +83,19 @@ Login as the robot user and `cat` the second key/flag. (make sure to spawn pty `
 
 ![suid robot](https://user-images.githubusercontent.com/87742813/206673510-33b32632-5a4b-43d2-b54d-d2944abec6ba.png)
 
+We discovered that there is an executable binary for nmap that has a setuid bit, allowing us to gain root-level privileges.
+
+![gtfobins robot](https://user-images.githubusercontent.com/87742813/206675571-b873a9f4-9e7f-428e-9799-9b017486a72a.png)
+
+By using the following command, i succesfully root the machine.
+
+```
+nmap --interactive
+nmap> !sh
+```
+![rootrobot](https://user-images.githubusercontent.com/87742813/206675819-2b8fd18e-4fed-4697-b6b6-c1db35d289f0.png)
+
+          3rd key = 04787ddef27c3dee1ee161b21670b4e4
 
 
 

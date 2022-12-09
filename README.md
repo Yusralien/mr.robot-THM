@@ -57,6 +57,9 @@ By using the command `rlwrap nc -lnvp your_port`
 
 At this point, I used to investigate the system and entered the robot directory, I found two files. The first is our second key/flag, and the second is a password that is saved in MD5 format (read permission is set to everyone). 
 
-![hash rbot](https://user-images.githubusercontent.com/87742813/206666132-ab7ac7bf-e033-49da-adeb-1426dd299dd3.png)
+![hash rbot](https://user-images.githubusercontent.com/87742813/206668022-5e09f024-85f6-408d-93e7-1443fe0869eb.png)
+
+
+
 
 

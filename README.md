@@ -55,5 +55,8 @@ By using the command `rlwrap nc -lnvp your_port`
 
 ![nc robot](https://user-images.githubusercontent.com/87742813/206664734-81404a54-f417-4084-96ec-e891f732cd4a.png)
 
-After exploring the system, i found our second hint and key/flag but i cant "cat" the .txt given.
+At this point, I used to investigate the system and entered the robot directory, I found two files. The first is our second key/flag, and the second is a password that is saved in MD5 format (read permission is set to everyone). 
+
 ![hash rbot](https://user-images.githubusercontent.com/87742813/206666132-ab7ac7bf-e033-49da-adeb-1426dd299dd3.png)
+
+
